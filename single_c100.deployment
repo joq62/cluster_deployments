@@ -1,0 +1,8 @@
+{cluster_deployment,"single_c100",
+ [{cluster_name,"test1"},
+  {num_controllers,1},	
+  {controller_hosts,["c100"]},
+  {num_workers,6},
+  {worker_hosts,["c100"]}
+ ]
+}.
