@@ -1,5 +1,6 @@
 {cluster_deployment,"single_c100",
- [{cluster_name,"test1"},
+ [{cookie,"cookie_single_c100"},
+  {dir,"single_c100"},	
   {num_controllers,1},	
   {controller_hosts,["c100"]},
   {num_workers,6},

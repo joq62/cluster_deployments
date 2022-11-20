@@ -26,7 +26,8 @@ check([])->
     io:format("Success, OK ! ~n");
 check([{ok,[{cluster_deployment,_Id,Info}]}|T])->
     io:format("Checking ~p~n",[Info]),
-    true=proplists:is_defined(cluster_name,Info),
+    true=proplists:is_defined(cookie,Info),
+    true=proplists:is_defined(dir,Info),
     true=proplists:is_defined(num_controllers,Info),
     true=proplists:is_defined(controller_hosts,Info),
     true=proplists:is_defined(num_workers,Info),
