@@ -29,9 +29,9 @@ check([{ok,[{cluster_deployment,_Id,Info}]}|T])->
     true=proplists:is_defined(cookie,Info),
     true=proplists:is_defined(dir,Info),
     true=proplists:is_defined(num_controllers,Info),
-    true=proplists:is_defined(controller_hosts,Info),
+    true=proplists:is_defined(controller_host_specs,Info),
     true=proplists:is_defined(num_workers,Info),
-    true=proplists:is_defined(worker_hosts,Info),
+    true=proplists:is_defined(worker_host_specs,Info),
 
     check(T).
 

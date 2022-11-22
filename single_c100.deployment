@@ -2,8 +2,8 @@
  [{cookie,"cookie_single_c100"},
   {dir,"single_c100"},	
   {num_controllers,1},	
-  {controller_hosts,["c100"]},
+  {controller_host_specs,["c100"]},
   {num_workers,6},
-  {worker_hosts,["c100"]}
+  {worker_host_specs,["c100"]}
  ]
 }.
