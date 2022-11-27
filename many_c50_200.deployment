@@ -1,0 +1,9 @@
+{cluster_deployment,"many_c50_c200",
+ [{cookie,"cookie_many_c50_c200"},
+  {dir,"many_c50_c200"},	
+  {num_controllers,2},	
+  {controller_host_specs,["c50","c200"]},
+  {num_workers,6},
+  {worker_host_specs,["c50","c200"]}
+ ]
+}.
